@@ -1,6 +1,13 @@
+/*
+* Title of Class: TestFarm
+* Author's Name: Milda Kuciauskas
+* Purpose: to be called in order to create a TestFarm object and call accessor methods 
+*
+* 
+*/
 public class TestFarm { //replace with stick note code
     public static void main (String[] args) {
-        Cow randy = new Cow("moo", "big cow");
+      /*   Cow randy = new Cow("moo", "big cow");
         System.out.println(randy.getType() + " goes "
          + randy.getSound());
         Chick mandy = new Chick("cheep", "little chick"); 
@@ -12,5 +19,8 @@ public class TestFarm { //replace with stick note code
         Pig andy = new Pig("oink", "big pig");
         System.out.println(andy.getType() + " goes " + 
         andy.getSound());
+        */
+       Farm bigfarm = new Farm();
+       bigfarm.animalSounds();
     }
 }
